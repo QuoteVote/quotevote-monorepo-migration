@@ -29,7 +29,7 @@ export function RequestInviteDialog({ open, onClose }: RequestInviteDialogProps)
   const [error, setError] = React.useState('')
   const [submitted, setSubmitted] = React.useState(false)
   const [currentPath, setCurrentPath] = React.useState('')
-  const timeoutRef = React.useRef<NodeJS.Timeout | null>(null)
+  const timeoutRef = React.useRef<ReturnType<typeof setTimeout> | null>(null)
   const client = useApolloClient()
   const [requestUserAccess, { loading }] = useMutation(REQUEST_USER_ACCESS_MUTATION)
 
@@ -47,7 +47,9 @@ export function RequestInviteDialog({ open, onClose }: RequestInviteDialogProps)
     setEmail('')
     setError('')
     setSubmitted(false)
-    onClose?.()
+    if (onClose) {
+      onClose()
+    }
   }, [onClose])
 
   const handleSubmit = React.useCallback(async () => {
@@ -65,7 +67,9 @@ export function RequestInviteDialog({ open, onClose }: RequestInviteDialogProps)
         fetchPolicy: 'network-only',
       })
 
-      const isDuplicate = checkDuplicate?.data?.checkDuplicateEmail
+      const isDuplicate = checkDuplicate && checkDuplicate.data
+        ? (checkDuplicate.data as { checkDuplicateEmail?: boolean | unknown[] }).checkDuplicateEmail
+        : undefined
       if ((Array.isArray(isDuplicate) && isDuplicate.length > 0) || isDuplicate === true) {
         setError('This email address has already been used to request an invite.')
         return

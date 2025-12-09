@@ -16,8 +16,7 @@
       "@/graphql/*": ["./graphql/*"],
       "@/lib/*": ["./lib/*"]
     },
-    "types": ["react", "react-dom", "node"],
-    "typeRoots": ["./client/node_modules/@types", "./node_modules/@types"]
+    "types": ["react", "react-dom"]
   },
   "include": [
     "components/**/*.ts",
