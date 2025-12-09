@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/components/*": ["./components/*"],
+      "@/graphql/*": ["./graphql/*"],
+      "@/lib/*": ["./lib/*"]
+    },
+    "types": ["react", "react-dom", "node"],
+    "typeRoots": ["./client/node_modules/@types", "./node_modules/@types"]
+  },
+  "include": [
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "graphql/**/*.ts",
+    "lib/**/*.ts",
+    "lib/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

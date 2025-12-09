@@ -1,0 +1,388 @@
+file_path,detected_issues,recommended_migration_target
+client/vite.config.js,Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/theme.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/setupTests.js,React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/routes.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/main.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/netlify/edge-functions/og-metadata.js,fetch() instead of Apollo,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/utils/display.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/utils/replaceGqlError.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/utils/getTopPostsVoteHighlights.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/utils/getActivityContent.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/utils/momentUtils.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/utils/getCardBackgroundColor.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/Context/AuthModalContext.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/Context/ThemeContext.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/Context/AuthModalContext.jsx,.jsx extension; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/graphql/query.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/graphql/mutations.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/graphql/subscription.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hoc/withUser.jsx,.jsx extension; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hoc/withTestWrapper.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/themes/SecondTheme.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/themes/MainTheme.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/mui-routes.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/variables/general.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/variables/charts.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/LogoutPage.jsx,.jsx extension; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/DateSearchBar.jsx,.jsx extension; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Avatar.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/completSearch.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/ContentList.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/AlertSkeletonLoader.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/activityBar.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/ErrorBoundary.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestInviteDialog.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestInviteDialog.test.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/AlertList.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubHeader.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/StripePaymentDialog.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PopoverMenu.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/LoadingSpinner.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/customExpansionPanel.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Alert.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PrivateRoute.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hooks/usePresenceHeartbeat.js,useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hooks/useTypingIndicator.js,useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hooks/usePagination.js,React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hooks/useResponsive.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/hooks/usePresenceSubscription.js,useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/Auth.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/TokenExpired.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/Admin.stories.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/Admin.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/RTL.stories.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/Auth.stories.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/RTL.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/layouts/Scoreboard.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/Home.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/Comment.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/SettingsActive.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/Like.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/Settings.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/Quote.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/svg/Dislike.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/modalStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/hoverCardStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/customSelectStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/buttonGroupStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/customCheckboxRadioSwitch.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/cardImagesStyles.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/extendedTablesStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/validationFormsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/loginPageStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/notificationsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/extendedFormsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/userProfileStyles.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/sweetAlertStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/gridSystemStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/buttonsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/lockScreenPageStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/iconsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/errorPageStyles.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/registerPageStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/chartsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/pricingPageStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/regularFormsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/dashboardStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/views/landingPageStyle.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/snackbarContentStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/tableStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardTextStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/infoStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/buttonStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardHeaderStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/customInputStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/customDropdownStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/badgeStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/typographyStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardIconStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/authNavbarStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/headingStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardAvatarStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/sidebarStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardBodyStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/tasksStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/wizardStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/navPillsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/footerStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/paginationStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/timelineStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/accordionStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/customTabsStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/instructionStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/adminNavbarLinksStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/adminNavbarStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/customLinearProgressStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/components/cardFooterStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/layouts/adminStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/layouts/authStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/assets/jss/material-dashboard-pro-react/layouts/rtlStyle.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/ui/ActivityCard/ActivityCard.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/ui/ActivityCard/index.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/ui/Dialog/index.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/ui/Dialog/Dialog.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/ui/ActivityCard/__tests__/index.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/ui/Dialog/__tests__/index.test.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomDropdown/CustomDropdown.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomButtons/Button.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Snackbar/Snackbar.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Snackbar/SnackbarContent.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomLinearProgress/CustomLinearProgress.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Grid/GridContainer.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Grid/GridItem.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Sidebar/Sidebar.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/InfoArea/InfoArea.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomTabs/CustomTabs.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Tasks/Tasks.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomInput/CustomInput.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Badge/Badge.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/NavPills/NavPills.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Timeline/Timeline.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Instruction/Instruction.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Table/Table.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Wizard/Wizard.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/CardBody.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/Card.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/CardAvatar.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/CardHeader.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/CardFooter.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/CardIcon.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Card/CardText.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/FixedPlugin/FixedPlugin.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Heading/Heading.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomUpload/PictureUpload.jsx,.jsx extension; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/CustomUpload/ImageUpload.jsx,.jsx extension; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Clearfix/Clearfix.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Footer/Footer.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Muted.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Warning.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Danger.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Quote.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Info.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Primary.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Typography/Success.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Navbars/AdminNavbar.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Navbars/AuthNavbar.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Navbars/AdminNavbarLinks.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Accordion/Accordion.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/Pagination/Pagination.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Widgets/Widgets.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Tables/ExtendedTables.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Tables/ReactTables.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Tables/RegularTables.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Dashboard/Dashboard.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Charts/Charts.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/Buttons.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/Notifications.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/Typography.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/SweetAlert.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/Icons.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/GridSystem.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Components/Panels.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Maps/VectorMap.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Maps/FullScreenMap.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Calendar/Calendar.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/LockScreenPage.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/ErrorPage.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/PricingPage.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/RegisterPage.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/Timeline.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/UserProfile.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/LoginPage.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Pages/RTLSupport.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/Wizard.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/ExtendedForms.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/RegularForms.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/ValidationForms.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/WizardSteps/Step3.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/WizardSteps/Step1.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/mui-pro/views/Forms/WizardSteps/Step2.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/AboutPage/index.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/ForgotPassword/ForgotPasswordPage.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PasswordResetPage/PasswordResetPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/SearchPage/SearchPage.test.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/SearchPage/index.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/RequestAccessPage/RequestAccessPage.test.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/RequestAccessPage/RequestAccessPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/SignupPage/SignupPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/TermsPage/index.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PlanCarouselPage/PlanCarouselPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PostsPage/PostPage.test.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PostsPage/PostPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PostsPage/index.jsx,.jsx extension; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/Profile/index.jsx,.jsx extension; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/Profile/ProfileView.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/ManageInvites/ManageInvites.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/LandingPage/LandingPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/LandingPage/LandingPage.test.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/ControlPanel/ControlPanel.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/ControlPanel/ControlPanel.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/ControlPanel/ControlPanel.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/LoginPage/LoginPage.jsx,.jsx extension; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PlanPage/PlanPage.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/InvestorThanks/InvestorThanks.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/views/PostsPage/Skeletons/PostPageSkeleton.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PostActions/PostActionCard.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PostActions/PostActionCard.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PostActions/PostActionList.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/BookmarkIconButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/GetAccessButton.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/ManageInviteButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/RejectButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/DoubleArrowIconButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/SettingsSaveButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/SettingsIconButton.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/SignOutButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/ApproveButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/SelectPlansButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/InvestButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/FollowButton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/CustomButtons/AdminIconButton.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/requestAccessStyles.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/RequestAccessForm.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/InfoSections.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/ApproveRejectPopver/ApproveRejectPopover.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatContent.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/QuoteHeaderMessage.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatSearchInput.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatTabs.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatList.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/MessageItem.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatContent_BACKUP.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatConstants.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/AddBuddyDialog.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/PresenceIcon.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/MessageSend.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/TypingIndicator.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/StatusEditor.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/MessageBox.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/UserSearchResults.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/MessageItemList.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/RichToolTip.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/ChatMenu.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Chat/StatusMessage.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/ForgotPassword/ForgotPassword.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubmitPost/SubmitPostSkeleton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubmitPost/SubmitPostAlert.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubmitPost/SubmitPost.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubmitPost/SubmitPost.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubmitPost/SubmitPostForm.jsx,.jsx extension; Material UI import; fetch() instead of Apollo; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SubmitPost/SubmitPostForm.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/VotingComponents/SelectionPopover.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/VotingComponents/VotingBoard.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/VotingComponents/VotingPopup.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Login/Login.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Login/Login.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Login/Login.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Comment/Comment.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Comment/CommentReactions.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Comment/Comment.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Comment/CommentList.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/PostController.jsx,.jsx extension; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/Post.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/PostSkeleton.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/Post.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/PostsList.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/PaginatedPostsList.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Post/PostCard.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SignupForm/SignupForm.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Unauthorized/Unauthorized.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Unauthorized/Unauthorized.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Unauthorized/Unauthorized.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/BuddyList/BuddyListWithPresence.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/BuddyList/BuddyItemList.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/BuddyList/BuddyList.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/BuddyList/index.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/MobileDrawer.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/Notification.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/NotificationMobileView.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/NotificationMenu.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/Notification.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/NotificationLists.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Notifications/NotificationList.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/EmailSent/EmailSent.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/__tests__/SubHeader.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/__tests__/PostChatSend.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Activity/ActivityList.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Activity/Activity.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Activity/PaginatedActivityList.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Activity/ActivityEmptyList.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Admin/BotListTab.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/UserPosts/UserPosts.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SearchContainer/UsernameResults.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SearchContainer/SearchGuestSections.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SearchContainer/SearchResults.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/SearchContainer/index.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PasswordReset/PasswordReset.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Settings/SettingsContent.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Settings/SettingsMenu.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/HighlightText/index.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/common/StickyPaginationWrapper.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/common/PaginatedList.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/common/SEOHead.jsx,.jsx extension; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/common/Loader.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/common/Pagination.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PostChat/PostChatSend.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PostChat/PostChatReactions.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/PostChat/PostChatMessage.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/RequestInviteCarouselButton.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/Carousel.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/Carousel.stories.js,Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Comment.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Filter.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/CheckBoxFilled.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Up.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Calendar.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/index.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Quote.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Down.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Search.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Icons/Group.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/GuestFooter/GuestFooter.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Navbars/ProfileHeader.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Navbars/AuthNavbar.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Navbars/MainNavBar.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ReputationDisplay.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ProfileAvatar.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/FollowInfo.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/SimpleAvatarEditor.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ReportUserDialog.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/AvatarOptionButtons.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ProfileController.jsx,.jsx extension; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/UserFollowDisplay.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ProfileBadge.stories.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ProfileBadge.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ProfileBadge.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/ChangePhoto.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/SendInviteDialog.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/BadgeShowcase.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/AvatarIconButtons.jsx,.jsx extension; Material UI import; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Profile/NoFollowers.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Quotes/LatestQuotes.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/Plans/Plans.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/Plans/Plans.stories.js,Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/Plans/Plans.test.jsx,.jsx extension; React Router usage,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/PersonalForm/PersonalForm.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/PersonalForm/PersonalForm.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/PersonalForm/PersonalForm.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/PaymentMethod/PaymentMethod.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/PaymentMethod/CreditCardInput.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/PaymentMethod/PaymentMethod.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/BusinessForm/BusinessForm.jsx,.jsx extension; Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/BusinessForm/BusinessForm.stories.js,Material UI import,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/RequestAccess/BusinessForm/BusinessForm.test.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/InvestorsPlan/InvestorPlanCarousel.test.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/InvestorsPlan/InvestorPlanCarousel.jsx,.jsx extension; Material UI import; React Router usage; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/InvestorsPlan/InvestorPlanCarousel.stories.js,Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/InvestorsPlan/InvestorHeaderText.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/PersonalPlan/PersonalPlanHeaderText.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/PersonalPlan/PersonalPlanCarousel.stories.js,Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/PersonalPlan/PersonalPlanCarousel.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/PersonalPlan/PersonalPlanCarousel.test.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/BusinessPlan/BusinessPlanCarousel.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/BusinessPlan/BusinessHeaderText.jsx,.jsx extension,Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/BusinessPlan/BusinessPlanCarousel.stories.js,Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
+client/src/components/Carousel/BusinessPlan/BusinessPlanCarousel.test.jsx,.jsx extension; Material UI import; useState/useEffect (likely use client),Convert to Next.js 14 TypeScript component under components/* with shadcn/ui and Apollo hooks
